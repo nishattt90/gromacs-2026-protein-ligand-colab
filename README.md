@@ -23,6 +23,7 @@ Pipeline Summary
 | **3. Solvation & Ions** | Set up dodecahedron box, add TIP3P water & neutral Na+/Cl- | `solv_ions.gro` |
 | **4. Relaxation** | Energy Minimization followed by NVT and NPT equilibration | `nvt.gro`, `npt.gro` |
 | **5. Production MD** | Run main simulation trajectory and analyze system stability | `md_noPBC.xtc`, `rmsd.xvg` |
+
 Step-by-Step Overview
 Step 1: Input File Preparation
 - Protein (`.pdb`): Cleaned structure without crystal waters or alternate conformers.
